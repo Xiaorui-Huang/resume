@@ -98,14 +98,14 @@
 \begin{paracol}{2}
 
 \name{Xiaorui Huang}
-\tagline{Solve all that fascinate me}
+\tagline{Always Fascinated}
 %% You can add multiple photos on the left or right
 % \photoR{2.8cm}{Globe_High}
 % \photoL{2.5cm}{Yacht_High,Suitcase_High}
 
 \personalinfo{%
   % Not all of these are required!
-  \printinfo{\faCalendar}{Availability: From July 2023}
+  \printinfo{\faCalendar}{Availability: From May 2024}
   \email{richardxr.huang@mail.utoronto.ca}
   \phone{+1 (289) 772--8682}
   \location{Toronto, Canada}
@@ -125,83 +125,124 @@
 }
 \makecvheader{}
 
+% \vspace{-5pt}
+% \vspace{-5pt}
+
+ 
+\cvsection{Experience}
+
+\cvevent{eAI Machine Learning Engineer}{Qualcomm}{May 2023 --- August 2023}{Markham, ON}
+\begin{itemize}
+    \item Led efforts on \textbf{Neural Architecture Search (NAS)} and model compression within the \textbf{Edge AI (eAI)} R\&D team.
+
+    \item Developed a NAS framework, leveraging Qualcomm's patented NAS
+        techniques, to optimize \textbf{arbitrary models}\footnote*{NAS support is
+        required for NN layers \hspace{0.6ex} \textit{E.g. nn.Conv2d is supported}} for \textbf{any profiled hardware}, harnessing
+        Pytorch's \textbf{torch.fx} extensively.
+    
+    \item Streamlined the NAS workflow for incoming client models, slashing
+        \textbf{engineering time} by \textbf{80\%}.
+    
+    \item Achieved a \textbf{50\%} reduction in \textbf{model size} and a
+        \textbf{60\%} drop in \textbf{inference latency} without compromising accuracy across benchmark models\footnote*{Results vary; models include \href{https://arxiv.org/abs/1801.04381}{MobileNetV2}, ResNet50, BERT}.
+    
+    \item Engaged in lab meetings focused on cutting-edge model compression
+        research, particularly \textbf{Quantization}.
+    
+    \item Delivered a comprehensive presentation on the NAS framework to the
+        broader eAI team.
+
+\end{itemize}
+\cvtag{NAS}
+\cvtag{Quantization}
+\cvtag{torch.fx}
+\cvtag{Pytorch}
+\cvtag{ONNX}
+\cvtag{R\&D}
+
+\divider{}
+
+\cvevent{RPA Backend Developer Intern}{IBM}{May 2022 --- April 2023}{Markham, ON}
+
+\begin{itemize}
+
+    \item Worked on backend development for IBM's Robotics Process Automation (RPA) platform.
+    
+    \item Augmented IBM RPA's \textit{WAL} programming
+        language, introducing a reflection feature resembling Java and \textbf{C\#}.
+    
+    \item Collaborated with cross-functional teams, achieving a \textbf{15\%} reduction in customer issues and defects per release.
+    
+    \item Employed \textbf{agile} methodologies, showed both independent and
+        collaborative competencies in a hybrid environment.
+    
+    \item Articulated and presented solution strategies to RPA's senior architects and product teams. 
+
+    % \item Backend software development working on IBM Robotics Process Automation (RPA).
+    
+    % \item Increased IBM RPA's \textit{WAL} programming language usability by
+    %     developing reflection feature similar to Java and \textbf{C\#}.
+    
+    % \item Reduced 10\% customer issues and product defects per release through
+    %     collaboration with multi-disciplined teams. 
+ 
+    % \item Conducted \textbf{agile} development process, demonstrated independent
+    %     and teamwork skills in hybrid environment.
+    
+    % \item Presented solution to RPA senior architect \& product teams. 
+    
+\end{itemize}
+\cvtag{C\#}
+\cvtag{Pragramming Language Design}
+\cvtag{Agile}
+\cvtag{Visual Studio}
+
 \cvsection{Education}
 
 \cvevent{University of Toronto}{Candidate for B.Sc.\ in Computer Science}{2019 --- Now (Exp 2024) }{Toronto, ON}
 \vspace{-5pt}
 \cvevent{}{Relevant Courses}{}{}
-\vspace{-5pt}
 \begin{itemize}
     % \item  \textbf{CSC311 Machine Learning} Deep Neural Net, CNN, Principle Component Analysis, Reinforcement Learning. Implemented concepts in python from scratch and with Pytorch and Sklearn. 
     
-    \item  \textbf{CSC413 Deep Learning --- 96\%} Pytorch, Language Models, CNN, Interpretability, Optimization, RNN \& Attetion, Transformers, GAN, VAE, GNN, Q-Learning. Conducted \textbf{original research} on optimization strategy as final course project.\ \github{RolandGao/pycls}
-    
     \item  \textbf{CSC317 Computer Graphics --- 97\%}
-    Ray Tracing, Mass Spring Systems, Bounding Volume Hierarchy, Meshes processing, Forward \& Inverse Kinematics, Shader Pipeline with OpenGL Shading Language. Implemented graphics algorithms using \textbf{C++} assisted by \textbf{Eigen} and 
-    \textbf{libigl} libraries. 
-    % \item  \textbf{CSC258 Computer Organization - 95\%} Implemented and understood core computer component from basic circuits as well as writing assembly instructions.
+    Ray Tracing, Mass Spring Systems, Bounding Volume Hierarchy, Meshes, Kinematics, OpenGL Shaders in \textbf{C++} using
+        \textbf{Eigen} and \textbf{libigl} 
+
+    \item  \textbf{CSC413 Deep Learning --- 96\%} Transformers, CNN,
+        RNN, GAN, VAE, GNN, RL. \textbf{original research} on optimization
+        strategy as final course project.\ \github{RolandGao/pycls}
+    
+    % \item  \textbf{CSC258 Computer Organization - 95\%} Implemented and
+    % understood core computer component from basic circuits as well as
+    % writing assembly instructions.
 
     % \item \textbf{CSC209 Software Tools \& Sys Programming- 93\%} Bash Scripting, C, software tools, pipes, file processing, system calls
 \end{itemize}
-\vspace{-5pt}
-\cvevent{}{Other Courses}{}{}
-\vspace{-5pt}
-Linear Algebra, Statistic and Probability, Multivariate Calculus, Algorithm Design and Complexity
+\cvtag{C++}
+\cvtag{Pytorch}
+\cvtag{Linear Algebra}
+\cvtag{Algorithms}
+\cvtag{Stats \& Probablity}
+% \cvtag{Multivariate Calc}
+% \vspace{-5pt}
+% \cvevent{}{Other Courses}{}{}
+% Linear Algebra, Statistic and Probability, Multivariate Calculus, Algorithm Design and Complexity
 
- 
-\cvsection{Experience}
-
-\cvevent{Machine Learning Engineer}{Qualcomm}{May 2023 --- August 2023}{Markham, ON}
-\begin{itemize}
-    \item Machine Learning Engineer working on \textbf{Neural Architecture Search (NAS)} and as apart of the \textbf{edge AI (eAI)} R\&D team.
-
-    \item Designed and implemented a NAS framework\footnote*{NAS framework for automating internal researched NAS method} for optimizing \textbf{Any generic model}, against \textbf{Any generic hardware}.
-        
-    \item Employed PyTorch and torch.fx extensively to design and optimize various machine learning models.
-
-    \item Facilitated weekly lab meetings, aligning the team on research directions, findings, and breakthroughs.
-
-    \item Acquired a robust understanding of model quantization, ensuring optimized model deployment on edge devices.
-
-    \item Collaborated closely with interdisciplinary teams, ensuring alignment of machine learning initiatives with overarching company goals.
-
-    \item Assisted in the mentoring and onboarding of junior engineers, fostering a culture of continuous learning and knowledge sharing.
-
-    \item Demonstrated proactive problem-solving by identifying potential areas of improvement in the NAS workflow and proposing actionable solutions.
-
-    \item Kept abreast of the latest developments in the machine learning space, ensuring Qualcomm remains at the forefront of technological advancements.
-
-    \item Presented research findings and model improvements to senior management, influencing the strategic direction of machine learning projects.
-\end{itemize}
-
-\cvevent{RPA Backend Developer Intern}{IBM}{May 2022 --- April 2023}{Markham, ON}
-
-\begin{itemize}
-    \item Backend software development working on IBM Robotics Process Automation (RPA).
-    
-    \item Increased IBM RPA's \textit{WAL} programming language usability by developing reflection feature similar to Java and C\#.
-    
-    \item Reduced 10\% customer issues and product defects per release through collaboration with multi-disciplined teams. 
- 
-    \item Conducted \textbf{agile} development process, demonstrated independent and teamwork ability through both remote and onsite work environment. 
-    
-    \item Presented and communicated novel solutions to RPA senior architect and product teams. 
-    
-\end{itemize}
-\cvtag{C\#}
-\cvtag{Visual Studio}
-\cvtag{Agile}
+\switchcolumn{}
 
 \cvsection{Research}
-\cvevent{Linearly Explored Learning Rate Scheduler}{}{Apr 2022 \github{RolandGao/pycls}}{} 
+\cvevent{Linearly Explored Learning Rate Scheduler (LES)}{}{Apr 2022 \github{RolandGao/pycls}}{} 
 \begin{itemize}
-    \item  We proposed the Linearly Explored Learning Rate Scheduler (LES) to help automate and optimize the resource and time consuming task of \textbf{learning rate tuning}.
+
+    \item We introduced the LES method to automate and refine the resource-intensive task of \textbf{learning rate tuning}.
     
-    \item LES achieves a final error rate of 8\% compared to other commonly used optimizer and schedulers on \href{https://github.com/facebookresearch/pycls}{pycls} code base \textbf{without the need for learning rate tuning}. 
+    \item LES achieves a final error rate of 8\% on par with other commonly used
+        optimizer and schedulers on \href{https://github.com/facebookresearch/pycls}{pycls} code base
+        \textbf{without the need for learning rate tuning}. 
     
-    \item Implemented and tested custom \textbf{SGD with momentum} algorithm for LES, allowing the team to explore different \@backpropagation approaches when developing LES\@.
+    \item Developed a custom \textbf{SGD with momentum} algorithm to facilitate exploration of various backpropagation strategies during LES creation.
     
-    \item Implemented visualization tools and authored parts of experiment and discussion section.
     
 \end{itemize}
 % \cvevent{IBM RPA Backend Intern}{The 31st World Hakka Conference}{May 2021 -- Aug 2021}{Toronto, ON}
@@ -228,7 +269,6 @@ Linear Algebra, Statistic and Probability, Multivariate Calculus, Algorithm Desi
     %\item Presented and demonstrated solutions to senior executives
 %\end{itemize}
 
-\switchcolumn{}
 \cvsection{Projects}
 
 % \begin{wrapfigure}[1]{r}[-25pt]{1.5cm}
@@ -239,36 +279,38 @@ Linear Algebra, Statistic and Probability, Multivariate Calculus, Algorithm Desi
 %% Switch to the right column. This will now automatically move to the second
 %% page if the content is too long.
 
-\cvevent{Woodoku Learn}{Reinforced Learning Model }{Jul 2022 
+\cvevent{Woodoku Learn}{Reinforcement Learning Model }{Jul 2022 
 \github{EdwardHaoranLee/WoodokuLearn}
 }{}
 \begin{itemize}
-  \item Designed and implemented the mobile game \href{https://play.google.com/store/apps/details?id=com.tripledot.woodoku&hl=en_CA&gl=US}{Woodoku} in the CLI using python.
-  \item Woodoku could be played by human users and by a game-playing algorithm through game environment APIs. 
-  \item Actively implementing the game-playing algorithm using Q-Learning, a \textbf{Reinforce Learning} algorithm, with Pytorch to beat the Woodoku leader board.
-  \item Practiced \textbf{agile} software development, CI testing and static type checking, achieved through GitHub Action, GitHub Pull Request and code review process, pytest, mypy.  
+
+    \item Replicated the mobile game \href{https://play.google.com/store/apps/details?id=com.tripledot.woodoku&hl=en_CA&gl=US}{Woodoku} for CLI using \textbf{Python}, enabling both human and AI gameplay through dedicated environment APIs.
+    \item Employed Q-Learning, a \textbf{Reinforcement Learning} approach with Pytorch, targeting top scores on the Woodoku leaderboard.
+    \item Adhered to \textbf{agile} methodologies; integrated CI testing, static type checks, and employed tools like GitHub Actions, pytest, and mypy for efficient code reviews and development.
+
 \end{itemize}
-\cvtag{python}
+% \cvtag{python}
 \cvtag{Pytorch}
-\cvtag{mypy}
+\cvtag{OOP}
+% \cvtag{mypy}
 \cvtag{Agile}
 
-\divider{}
-\vspace{-2pt}
+% \divider{}
+% \vspace{-2pt}
 
-\cvevent{Eedimator}{Online course performance predictor}{Nov 2021
-\github{Xiaorui-Huang/Eedimator}
-}{}
-\begin{itemize}
-    \item A \textbf{predictor of students' ability to answer questions}, based on previous answers and other students' answers allowing online education platforms to provide tailored assistance.
-    \item Used Machine Learning algorithms such as \textbf{Neural Networks, Matrix Factorization, Item Response Theory, and K-NN} to create an \textbf{ensembled} prediction model.
-    \item Based on \textbf{NeurIPS} 2020 Education Challenge and uses real-world data collected on  \printinfo{\faGlobe} {eedi.com} [https://eedi.com/projects/neurips-education-challenge] 
+% \cvevent{Eedimator}{Online course performance predictor}{Nov 2021
+% \github{Xiaorui-Huang/Eedimator}
+% }{}
+% \begin{itemize}
+%     \item A \textbf{predictor of students' ability to answer questions}, based on previous answers and other students' answers allowing online education platforms to provide tailored assistance.
+%     \item Used Machine Learning algorithms such as \textbf{Neural Networks, Matrix Factorization, Item Response Theory, and K-NN} to create an \textbf{ensembled} prediction model.
+%     \item Based on \textbf{NeurIPS} 2020 Education Challenge and uses real-world data collected on  \printinfo{\faGlobe} {eedi.com} [https://eedi.com/projects/neurips-education-challenge] 
 
-\end{itemize}
-\cvtag{Python}
-\cvtag{Pytorch}
-\cvtag{numpy}
-\cvtag{scikit-learn}
+% \end{itemize}
+% \cvtag{Python}
+% \cvtag{Pytorch}
+% \cvtag{numpy}
+% \cvtag{scikit-learn}
 
 \divider{}
 
@@ -279,15 +321,16 @@ Linear Algebra, Statistic and Probability, Multivariate Calculus, Algorithm Desi
   [https://devpost.com/software/bomba-fucking-shut-up-simulator]
 }{} 
 \begin{itemize}
-  \item A moving alarm secured with a puzzle to snooze, built with \textbf{Arduino} and \textbf{Raspberry Pi}.
-  \item The user is required to chase down the alarm, solve puzzles, then give the correct voice commands to snooze the alarm.
-    
-  \item Configured \textbf{Google Speech-to-Text API}, developed voice command feature in python and implemented motor and puzzle logic in C++.
+  \item Developed a run-away alarm with \textbf{Arduino} and \textbf{Raspberry
+      Pi} that requires user to solve puzzles to snooze.
+  \item Designed the alarm to move, requiring users to physically engage, chase it down, and use voice commands after puzzle completion for snooze activation.
+  \item Integrated \textbf{Google Speech-to-Text API} for voice recognition, and
+      wrote command functionalities in Python and motion \& puzzle logic in C++.
 \end{itemize}
 \cvtag{C++}
 \cvtag{Python}
 \cvtag{Arduino}
-\cvtag{Raspberry Pi}\\
+\cvtag{Raspberry Pi}
 \cvtag{Google Cloud API}
 
 
@@ -411,17 +454,18 @@ Linear Algebra, Statistic and Probability, Multivariate Calculus, Algorithm Desi
 \cvsection{Skills}
 
 \cvevent{}{Programming Languages}{}{}
-\cvtag{Python}
+\cvtag{\faPython{} Python}
 \cvtag{C/C++}
 \cvtag{C\#}
-\cvtag{Java}
+\cvtag{\faRust{} Rust}
+\cvtag{\faJava{} Java}
 \cvtag{TypeScript}\\
 \cvtag{HTML\&CSS}
-\cvtag{PowerShell}
-% \cvtag{R}
 \cvtag{Bash Scripts}
+\cvtag{PowerShell}
+\cvtag{R}
 \cvtag{SQL}
-% \cvtag{\LaTeX}
+\cvtag{\LaTeX}
 
 %\cvtag{Awk}
 %\cvtag{Sed}
@@ -440,10 +484,12 @@ Linear Algebra, Statistic and Probability, Multivariate Calculus, Algorithm Desi
 
 \cvevent{}{Other Frameworks \& Development Environments}{}{}
 \cvtag{Pytorch}
+\cvtag{torch.fx}
+\cvtag{ROS}
 % \cvtag{TensorFlow}
-\cvtag{React}
-\cvtag{Vue.js}
-\cvtag{Django}
+% \cvtag{React}
+% \cvtag{Vue.js}
+% \cvtag{Django}
 \cvtag{MongoDB}
 \cvtag{Express.js}
 \cvtag{tailwindcss}

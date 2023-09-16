@@ -315,12 +315,11 @@
     \smallskip
 }
 
+% Original
 % \newcommand{\cvtag}[1]{%
 %     \tikz[baseline]\node[anchor=base,draw=body!30,rounded corners,inner xsep=1ex,inner ysep =0.75ex,text height=1.5ex,text depth=.25ex]{#1};
 % }
-% \newcommand{\cvtag}[1]{%
-%   \tikz[baseline]\node[anchor=base, draw=gray!30, rounded corners, inner xsep=0.5ex, inner ysep=0.5ex, text height=1.25ex, text depth=0.25ex]{#1};
-% }
+
 \newcommand{\cvtag}[1]{%
     \tikz[baseline]\node[anchor=base, draw=gray!30, rounded corners, inner xsep=0.5ex, inner ysep=0.5ex, text height=1.25ex, text depth=0.25ex, font=\footnotesize]{#1};
 }

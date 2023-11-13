@@ -321,7 +321,7 @@
 % }
 
 \newcommand{\cvtag}[1]{%
-    \tikz[baseline]\node[anchor=base, draw=gray!30, rounded corners, inner xsep=0.5ex, inner ysep=0.5ex, text height=1.25ex, text depth=0.25ex, font=\footnotesize]{#1};
+    \tikz[baseline]\node[anchor=base, draw=gray!80, rounded corners, inner xsep=0.5ex, inner ysep=0.5ex, text height=1.25ex, text depth=0.25ex, font=\footnotesize]{#1};
 }
 
 \newcommand{\cvskill}[2]{%

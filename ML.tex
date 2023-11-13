@@ -98,7 +98,7 @@
 \begin{paracol}{2}
 
 \name{Xiaorui Huang}
-\tagline{Always Fascinated}
+\tagline{Always Fascinated \faLaptopCode}
 %% You can add multiple photos on the left or right
 % \photoR{2.8cm}{Globe_High}
 % \photoL{2.5cm}{Yacht_High,Suitcase_High}
@@ -163,7 +163,7 @@
 
 \divider{}
 
-\cvevent{RPA Backend Developer Intern}{IBM}{May 2022 --- April 2023}{Markham, ON}
+\cvevent{RPA Backend Developer}{IBM}{May 2022 --- April 2023}{Markham, ON}
 
 \begin{itemize}
 
@@ -201,17 +201,17 @@
 \vspace{-3pt}
 \cvsection{Education}
 
-\cvevent{University of Toronto}{Candidate for B.Sc.\ in Computer Science}{2019 --- Now (Exp 2024) }{Toronto, ON}
+\cvevent{University of Toronto \faUniversity}{Candidate for B.Sc.\ in Computer Science}{2019 --- Now (Exp 2024) }{Toronto, ON}
 \vspace{-5pt}
 \cvevent{}{Relevant Courses}{}{}
 \begin{itemize}
     % \item  \textbf{CSC311 Machine Learning} Deep Neural Net, CNN, Principle Component Analysis, Reinforcement Learning. Implemented concepts in python from scratch and with Pytorch and Sklearn. 
     
-    \item  \textbf{CSC317 Computer Graphics --- 97\%}
+    \item  \textbf{CSC317 Computer Graphics (97\%)}
     Ray Tracing, Mass Spring Systems, Bounding Volume Hierarchy, Meshes, Kinematics, OpenGL Shaders in \textbf{C++} using
         \textbf{Eigen} and \textbf{libigl} 
 
-    \item  \textbf{CSC413 Deep Learning --- 96\%} Transformers, CNN,
+    \item  \textbf{CSC413 Deep Learning (96\%)} Transformers, CNN,
         RNN, GAN, VAE, GNN, RL. \textbf{original research} on optimization
         strategy as final course project.\ \github{RolandGao/pycls}
     
@@ -281,21 +281,17 @@
 %% Switch to the right column. This will now automatically move to the second
 %% page if the content is too long.
 
-\cvevent{Woodoku Learn}{Reinforcement Learning Model }{Jul 2022 
-\github{EdwardHaoranLee/WoodokuLearn}
-}{}
+\cvevent{\textbf{CUDA} Ray Tracing}{Almost Real Time Ray Tracing}
+{November 2023 \github{Xiaorui-Huang/cuda-ray-tracing}
+}{} 
 \begin{itemize}
-
-    \item Replicated the mobile game \href{https://play.google.com/store/apps/details?id=com.tripledot.woodoku&hl=en_CA&gl=US}{Woodoku} for CLI using \textbf{Python}, enabling both human and AI gameplay through dedicated environment APIs.
-    \item Employed Q-Learning, a \textbf{Reinforcement Learning} approach with Pytorch, targeting top scores on the Woodoku leaderboard.
-    \item Adhered to \textbf{agile} methodologies; integrated CI testing, static type checks, and employed tools like GitHub Actions, pytest, and mypy for efficient code reviews and development.
-
+        \item Implemented a \textbf{CUDA} ray tracer with \textbf{BVH} acceleration structure, with \textbf{Blinn-Phong} shading.
+        \item Achieved \textbf{almost real-time} rendering of \textbf{1000+} triangles with \textbf{30} FPS.
+        \item Incorporated dynamically loaded Scene generation to allow for future interactivity.
 \end{itemize}
-% \cvtag{python}
-\cvtag{Pytorch}
-\cvtag{OOP}
-% \cvtag{mypy}
-\cvtag{Agile}
+\cvtag{CUDA}
+\cvtag{C\//C++}
+\cvtag{CMake}
 
 % \divider{}
 % \vspace{-2pt}
@@ -316,25 +312,22 @@
 
 \divider{}
 
-\cvevent{Boomba --- Run-away Alarm}{New Hacks 2020 --- \textit{Hackathon 2nd Place Overall}}
-{March 2020 
-  \printinfo{\faGlobe}
-  {Boomba on devpost.com}
-  [https://devpost.com/software/bomba-fucking-shut-up-simulator]
-}{} 
-\begin{itemize}
-  \item Developed a run-away alarm with \textbf{Arduino} and \textbf{Raspberry
-      Pi} that requires user to solve puzzles to snooze.
-  \item Designed the alarm to move, requiring users to physically engage, chase it down, and use voice commands after puzzle completion for snooze activation.
-  \item Integrated \textbf{Google Speech-to-Text API} for voice recognition, and
-      wrote command functionalities in Python and motion \& puzzle logic in C++.
-\end{itemize}
-\cvtag{C++}
-\cvtag{Python}
-\cvtag{Arduino}
-\cvtag{Raspberry Pi}
-\cvtag{Google Cloud API}
 
+\cvevent{Woodoku Learn}{Reinforcement Learning Model }{Jul 2022 
+\github{EdwardHaoranLee/WoodokuLearn}
+}{}
+\begin{itemize}
+
+    \item Replicated the mobile game \href{https://play.google.com/store/apps/details?id=com.tripledot.woodoku&hl=en_CA&gl=US}{Woodoku} for CLI using \textbf{Python}, enabling both human and AI gameplay through dedicated environment APIs.
+    \item Employed Q-Learning, a \textbf{Reinforcement Learning} approach with Pytorch, targeting top scores on the Woodoku leaderboard.
+    \item Adhered to \textbf{agile} methodologies; integrated CI testing, static type checks, and employed tools like GitHub Actions, pytest, and mypy for efficient code reviews and development.
+
+\end{itemize}
+% \cvtag{python}
+\cvtag{Pytorch}
+\cvtag{OOP}
+% \cvtag{mypy}
+\cvtag{Agile}
 
 % \begin{wrapfigure}[1]{r}[-25pt]{1.5cm}
 
@@ -456,21 +449,20 @@
 \cvsection{Skills}
 
 \cvevent{}{Programming Languages}{}{}
-\cvtag{\faPython{} Python}
-\cvtag{C/C++}
-\cvtag{C\#}
+\cvtag{\faPython{}Python}
+\cvtag{\faEye{}CUDA}
+\cvtag{\textbf{C/C}++}
 \cvtag{\faRust{} Rust}
-\cvtag{\faJava{} Java}
-\cvtag{TypeScript}\\
-\cvtag{HTML\&CSS}
-\cvtag{Bash Scripts}
+\cvtag{C\#}
+\cvtag{\faJava{} Java}\\
+\cvtag{\LaTeX}
 \cvtag{PowerShell}
 \cvtag{R}
+\cvtag{TypeScript}
+\cvtag{HTML\&CSS}
 \cvtag{SQL}
-\cvtag{\LaTeX}
+% \cvtag{Bash Scripts}
 
-%\cvtag{Awk}
-%\cvtag{Sed}
 
 %\medskip
 % \divider
@@ -487,17 +479,19 @@
 \cvevent{}{Other Frameworks \& Development Environments}{}{}
 \cvtag{Pytorch}
 \cvtag{torch.fx}
-\cvtag{ROS}
+\cvtag{\faDocker{}Docker}
+% \cvtag{ROS}
 % \cvtag{TensorFlow}
 % \cvtag{React}
 % \cvtag{Vue.js}
 % \cvtag{Django}
-\cvtag{MongoDB}
-\cvtag{Express.js}
-\cvtag{tailwindcss}
+% \cvtag{MongoDB}
+% \cvtag{Express.js}
+% \cvtag{tailwindcss}
+\cvtag{\faWindows{}\faLinux{}WSL} 
+\cvtag{\faGit{}}
 \cvtag{Vim}
 \cvtag{VSCode} 
-\cvtag{WSL} 
 % \cvtag{AWS}
 % \cvtag{Azure}
 

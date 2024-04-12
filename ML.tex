@@ -105,11 +105,11 @@
 
     \personalinfo{%
         % Not all of these are required!
-        \printinfo{\faCalendar}{Availability: \hspace{0.5ex} \textbf{From May 2024}}
-        \printinfo{\faUser}{Preferred Name: \hspace{0.5ex} \textbf{Richard}}
+        % \printinfo{\faCalendar}{Availability: \hspace{0.5ex} \textbf{From May 2024}}
+        \printinfo{\faUser}{Preferred Name: \textbf{Richard}}
         \email{richardxr.huang@mail.utoronto.ca}
         \phone{+1 (289) 772--8682}
-        \location{Toronto, Canada}
+        \hspace{1.7ex}\location{Toronto, Canada}
         %\homepage{www.pending.dev}
 
         \linkedin{xiaorui-richard-huang}
@@ -126,7 +126,7 @@
     }
     \makecvheader{}
 
-    \vspace{-4pt}
+    \vspace{-10pt}
 
 
     \cvsection{Experience}
@@ -135,17 +135,20 @@
     \begin{itemize}
         \item Led efforts on \textbf{Neural Architecture Search (NAS)} and model compression within the \textbf{Edge AI R\&D} team.
 
+              % \item Developed a NAS framework, leveraging Qualcomm's patented NAS
+              %       techniques, to optimize \textbf{arbitrary models}\footnote*{NAS support
+              %           is required for NN layers \hspace{0.6ex} \textit{E.g. nn.Conv2d is
+              %               supported}} for \textbf{any profiled hardware}, harnessing Pytorch's
+              %       \textbf{torch.fx} extensively.
         \item Developed a NAS framework, leveraging Qualcomm's patented NAS
-              techniques, to optimize \textbf{arbitrary models}\footnote*{NAS support
-                  is required for NN layers \hspace{0.6ex} \textit{E.g. nn.Conv2d is
-                      supported}} for \textbf{any profiled hardware}, harnessing Pytorch's
+              techniques, to optimize \textbf{arbitrary models} for \textbf{any profiled hardware}, harnessing Pytorch's
               \textbf{torch.fx} extensively.
 
         \item Streamlined the NAS workflow for incoming client models, slashing
               \textbf{engineering time} by \textbf{80\%}.
 
         \item Achieved a \textbf{50\% reduction} in \textbf{model size} and a
-              \textbf{60\% drop in inference latency} without compromising accuracy across benchmark models\footnote*{Results vary; models include \href{https://arxiv.org/abs/1801.04381}{MobileNetV2}, ResNet50, BERT}.
+              \textbf{60\% drop in inference latency} without compromising accuracy across benchmark models.
 
         \item Engaged in lab meetings focused on cutting-edge model compression
               research, particularly \textbf{Quantization}.
@@ -159,7 +162,6 @@
     \cvtag{Pytorch}
     \cvtag{torch.fx}
     \cvtag{ONNX}
-    \cvtag{R\&D}
 
     \divider{}
 
@@ -201,33 +203,34 @@
     \vspace{-3pt}
     \cvsection{Education}
 
-    \cvevent{University of Toronto \faUniversity}{Candidate for B.Sc.\ in Computer Science}{2019 --- Expected June 2024}{}
-    \vspace{-5pt}
-    \cvevent{}{Relevant Courses}{}{}
+    \cvevent{University of Toronto \faUniversity}{Candidate for HBSc.\ in Computer Science}{2019 --- Expected June 2024}{}
+    % \vspace{-5pt}
     \begin{itemize}
 
 
-        % \item  \textbf{CSC317 Computer Graphics (97\%)}
-        %       Ray Tracing, Mass Spring Systems, Bounding Volume Hierarchy, Meshes, Kinematics, OpenGL Shaders in \textbf{C++} using
-        %       \textbf{Eigen} and \textbf{libigl}
+        \item CSC317 \textbf{Computer Graphics (97\%)} --- Ray Tracing, Mass
+              Spring Systems, BVH, Meshes, Kinematics, OpenGL Shaders in
+              \textbf{C++} using \textbf{Eigen} and \textbf{libigl}
 
-        \item  \textbf{CSC367 Parallel Computing (In Progress)}
+        \item  CSC367 \textbf{Parallel Computing (In Progress)}
               Parallel Arch \& Algo, threading \& OpenMP, Distributed Computing w/ MPI,
               \textbf{CUDA Arch \& Reduction Algo}, Cloud Computing
 
-        \item  \textbf{CSC413 Deep Learning (96\%)} Transformers, CNN,
-              RNN, GAN, VAE, GNN, RL. \textbf{original research} on optimization
-              strategy as final course project.\ \github{RolandGao/pycls}
 
-              % \item  \textbf{CSC258 Computer Organization - 95\%} Implemented and
-              % understood core computer component from basic circuits as well as
+        \item CSC420 \textbf{Computer Vision (85\%)} --- Convolution, Feature
+              Extraction (SIFT), Optical Flow, Feature Matching (RANSAC), Camera,
+              Stereo, Homography, Object Detection
+
+        \item CSC413 \textbf{Deep Learning (96\%)} --- Transformers, CNN, RNN, GAN, VAE, GNN, RL, Model Tuning techniques
+              % \item  \textbf{CSC258 Computer Organization - 95\%} Implemented
+              % and understood core computer component from basic circuits as well as
               % writing assembly instructions.
 
               % \item \textbf{CSC209 Software Tools \& Sys Programming- 93\%} Bash Scripting, C, software tools, pipes, file processing, system calls
     \end{itemize}
-    \cvtag{Probabilistic Learning}
-    \cvtag{CV}
     \cvtag{NLP}
+    \cvtag{Probabilistic ML}
+    \cvtag{Parallel Computing}
     \cvtag{Computer Security}
     % \cvtag{C++}
     % \cvtag{Pytorch}
@@ -244,11 +247,12 @@
     \cvsection{Research}
     \cvevent{ML Reseach Intern}{embARC Research Group}{Jan 2024 - Now}{University of Toronto}
     \begin{itemize}
-        \item Research on \textbf{3D Gaussian Splatting} with real-time SLAM systems on data captured from embedde devices.
-        \item Supervised by \href{https://www.cs.toronto.edu/~nandita/}{Prof. Nandita Vijaykumar}
+        \item Research on \textbf{3D Gaussian Splatting} \& \textbf{NeRF} with real-time SLAM systems on data captured on embedde devices.
+        \item Provides incremental Point Cloud initialization and dataset sampling techniques to improve real time reconstruction performance.
+        \item Supervised by \href{https://www.cs.toronto.edu/~nandita/}{\textbf{Prof. Nandita Vijaykumar}}
     \end{itemize}
 
-    \cvtag{3D Gaussian Splatting} \cvtag{SLAM} \cvtag{Pytorch} \cvtag{C/C++} \cvtag{CUDA}
+    \cvtag{3D Gaussian Splatting} \cvtag{SLAM} \cvtag{NeRF} \cvtag{Pytorch} \cvtag{CUDA}
 
     \divider{}
 
@@ -342,6 +346,7 @@
 
     \end{itemize}
     % \cvtag{python}
+    \cvtag{RL}
     \cvtag{Pytorch}
     \cvtag{OOP}
     % \cvtag{mypy}
@@ -465,7 +470,7 @@
     %\github{kevinjycui/Competitive-Programming}}
 
     \cvsection{Skills}
-
+    \vspace{-5pt}
     \cvevent{}{Programming Languages}{}{}
     \cvtag{\faPython{}Python}
     \cvtag{\textbf{C/C}++}
@@ -494,7 +499,11 @@
     %\medskip
     \divider{}
 
-    \cvevent{}{Other Frameworks \& Development Environments}{}{}
+    \vspace{-5pt}
+    \cvevent{}{Skills, Frameworks \& Development Environments}{}{}
+    \cvtag{3D Reconstruction}
+    \cvtag{Model Compression}
+    \cvtag{Parallel Algorithms}
     \cvtag{Pytorch}
     \cvtag{torch.fx}
     \cvtag{\faDocker{}Docker}
@@ -535,7 +544,7 @@
 
     \bigskip
 
-    \textit{Idiomatic in English and in Mandarin Chinese}
+    % \textit{Idiomatic in English and in Mandarin Chinese}
 
     % \cvsection{Languages}
 

@@ -154,15 +154,16 @@
         \item Engaged in lab paper-reading sessions focused on cutting-edge model compression
               research, particularly in \textbf{Quantization} and \textbf{efficient LLM}.
 
-        % \item Delivered a comprehensive presentation on the NAS framework to the
-        %       broader eAI team.
+              % \item Delivered a comprehensive presentation on the NAS framework to the
+              %       broader eAI team.
 
     \end{itemize}
     \cvtag{NAS}
     \cvtag{Quantization}
     \cvtag{Pytorch}
     \cvtag{torch.fx}
-    \cvtag{ONNX}
+    \cvtag{Model Compression}
+    % \cvtag{ONNX}
 
     \divider{}
 
@@ -170,7 +171,7 @@
 
     \begin{itemize}
 
-        \item Worked on backend development for IBM's Robotics Process Automation (RPA) platform, written in  \textbf{OOP C\#}.
+        \item Worked on backend development for IBM's Robotics Process Automation (RPA) platform, written in C\# \textbf{OOP}.
 
         \item Augmented IBM RPA's \textit{WAL} programming
               language, introducing a reflection feature resembling Java and C\#.
@@ -198,7 +199,8 @@
     \end{itemize}
     \cvtag{C\#}
     \cvtag{OOP}
-    \cvtag{Pragramming Language Design}
+    \cvtag{Large Monorepo}
+    \cvtag{Language Design}
     \cvtag{Agile}
 
     \vspace{-3pt}
@@ -207,6 +209,11 @@
     \cvevent{University of Toronto \faUniversity}{Honors BSc.\ in Computer Science}{Sep 2019 --- Jun 2024  \textit{(includes one year co-op)}}{}
     % \vspace{-5pt}
     \begin{itemize}
+        \item CSC413 \textbf{Deep Learning} (96\%) --- \textbf{GNN}, Transformers, CNN, RNN, GAN, VAE,  RL, Model Tuning techniques
+
+        \item CSC317 \textbf{Computer Graphics} (97\%) --- Ray Tracing, Mass
+              Spring Systems, BVH, Meshes, Kinematics, OpenGL Shaders in
+              \textbf{C++} using \textbf{Eigen} and \textbf{libigl}
 
         \item  CSC367 \textbf{Parallel Computing} (83\%) ---
               CUDA Arch \& Reduction Algo, Parallel Arch \& Algo, threading \&
@@ -216,22 +223,16 @@
               %       Extraction (SIFT), Optical Flow, Feature Matching (RANSAC), Camera,
               %       Stereo, Homography, Object Detection
 
-        \item CSC413 \textbf{Deep Learning} (96\%) --- \textbf{GNN}, Transformers, CNN, RNN, GAN, VAE,  RL, Model Tuning techniques
-
         \item ECE568 \textbf{Computer Security} (83\%) --- Buffer Overflow \& Control Hijacking, Cache Side-Channel Attacks, Network Security, Cryptography, Web Security
               % \item  \textbf{CSC258 Computer Organization - 95\%} Implemented
               % and understood core computer component from basic circuits as well as
               % writing assembly instructions.
-
-        \item CSC317 \textbf{Computer Graphics} (97\%) --- Ray Tracing, Mass
-              Spring Systems, BVH, Meshes, Kinematics, OpenGL Shaders in
-              \textbf{C++} using \textbf{Eigen} and \textbf{libigl}
-
               % \item \textbf{CSC209 Software Tools \& Sys Programming- 93\%} Bash Scripting, C, software tools, pipes, file processing, system calls
     \end{itemize}
     % \cvtag{NLP}
     \cvtag{CSC369 OS}
     \cvtag{CSC401 NLP}
+    \cvtag{CSC420 CV}
     \cvtag{CSC412 Probabilistic ML}
     % \cvtag{Parallel Computing}
     % \cvtag{Computer Security}
@@ -248,30 +249,31 @@
     \switchcolumn{}
 
     \cvsection{Research}
-    \cvevent{Machine Learning Reseach Intern}{embARC Research Group}{Jan 2024 --- Now}{University of Toronto}
+    \cvevent{Machine Learning Reseacher}{embARC Research Group}{Jan 2024 - Now \github{Xiaorui-Huang/DISORF}}{}
     \begin{itemize}
-        \item Research on \textbf{real-time Gaussian Splatting} \& \textbf{NeRF} 3D reconstruction with data captured on embedde devices.
-        \item Provides incremental Point Cloud initialization and dataset sampling techniques to improve real-time reconstruction performance.
-        \item Supervised by \href{https://www.cs.toronto.edu/~nandita/}{\textbf{Prof. Nandita Vijaykumar}}
+        \item Researched and Developed \textbf{DISORF}, a \textbf{real-time Gaussian Splatting} \& \textbf{NeRF} framework for online 3D
+              reconstruction and visualization of scenes captured by resource-constrained mobile robots and edge devices.
+        \item Proposed a novel shifted exponential frame sampling method to address the degradation in rendering quality caused by naive image sampling during online training.
+        \item Paper is under review for RA-L and availble on \href{https://arxiv.org/abs/2403.00228}{arXiv}
     \end{itemize}
 
     \cvtag{3D Gaussian Splatting} \cvtag{SLAM} \cvtag{NeRF} \cvtag{Pytorch} %\cvtag{CUDA}
 
-    \divider{}
+    % \divider{}
 
-    \cvevent{Linearly Explored Learning Rate Scheduler}{}{Apr 2022 \github{RolandGao/pycls}}{}
-    \begin{itemize}
+    % \cvevent{Linearly Explored Learning Rate Scheduler}{}{Apr 2022 \github{RolandGao/pycls}}{}
+    % \begin{itemize}
 
-        \item We introduced the LES method to automate and refine the resource-intensive task of \textbf{learning rate tuning}.
+    %     \item We introduced the LES method to automate and refine the resource-intensive task of \textbf{learning rate tuning}.
 
-        \item LES achieves a final error rate of 8\% on par with other commonly used
-              optimizer and schedulers on \href{https://github.com/facebookresearch/pycls}{pycls} code base
-              \textbf{without the need for learning rate tuning}.
+    %     \item LES achieves a final error rate of 8\% on par with other commonly used
+    %           optimizer and schedulers on \href{https://github.com/facebookresearch/pycls}{pycls} code base
+    %           \textbf{without the need for learning rate tuning}.
 
-        \item Developed a custom \textbf{SGD with momentum} algorithm to facilitate exploration of various backpropagation strategies during LES creation.
+    %     \item Developed a custom \textbf{SGD with momentum} algorithm to facilitate exploration of various backpropagation strategies during LES creation.
 
 
-    \end{itemize}
+    % \end{itemize}
     % \cvevent{IBM RPA Backend Intern}{The 31st World Hakka Conference}{May 2021 -- Aug 2021}{Toronto, ON}
     % \begin{itemize}
     %     \item Full-Stack software development building an Event Management app; streamlining registration process and attendee data retrieval 
@@ -305,39 +307,23 @@
 
     %% Switch to the right column. This will now automatically move to the second
     %% page if the content is too long.
+    \vspace{-5pt}
 
-    \cvevent{CUDA Ray Tracing}{Almost Real Time Ray Tracing}
+    \cvevent{CUDA Ray Tracing}{}
     {Nov 2023 \github{Xiaorui-Huang/cuda-ray-tracing}
     }{}
     \begin{itemize}
         \item Implemented a \textbf{CUDA} ray tracer with \textbf{BVH} acceleration structure, with Blinn-Phong shading.
         \item Achieved \textbf{real-time} ray-tracing of \textbf{30 FPS} and \textbf{2000x Speedup} on RTX3060-Ti compared to CPU\@.
-        \item Incorporated dynamically loaded Scene generation to allow for future interactivity.
-    \end{itemize}
+        \item Designed framework for scene construction, allowing for rendering
+              of new scenes via config and existing assets. \end{itemize}
     \cvtag{CUDA}
     \cvtag{C\//C++}
     \cvtag{Computer Graphics}
 
-    % \divider{}
-    % \vspace{-2pt}
 
-    % \cvevent{Eedimator}{Online course performance predictor}{Nov 2021
-    % \github{Xiaorui-Huang/Eedimator}
-    % }{}
-    % \begin{itemize}
-    %     \item A \textbf{predictor of students' ability to answer questions}, based on previous answers and other students' answers allowing online education platforms to provide tailored assistance.
-    %     \item Used Machine Learning algorithms such as \textbf{Neural Networks, Matrix Factorization, Item Response Theory, and K-NN} to create an \textbf{ensembled} prediction model.
-    %     \item Based on \textbf{NeurIPS} 2020 Education Challenge and uses real-world data collected on  \printinfo{\faGlobe} {eedi.com} [https://eedi.com/projects/neurips-education-challenge] 
-
-    % \end{itemize}
-    % \cvtag{Python}
-    % \cvtag{Pytorch}
-    % \cvtag{numpy}
-    % \cvtag{scikit-learn}
-
+    \vspace{-5pt}
     \divider{}
-
-
     \cvevent{Woodoku Learn}{Reinforcement Learning Model }{Jul 2022
         \github{EdwardHaoranLee/WoodokuLearn}
     }{}
@@ -355,6 +341,19 @@
     % \cvtag{mypy}
     \cvtag{Agile}
     \cvtag{CMake}
+
+    \vspace{-5pt}
+    \divider{}
+    \cvevent{Doodle Jumps}{Pure Assembly Game Dev}
+    {Dev 2021 \github{Xiaorui-Huang/doodle-jump}}{}
+    \begin{itemize}
+        \item Created a Minecraft-themed version of the \textbf{Doodle Jump} game using \textbf{MIPS Assembly}.
+        \item Implemented game logic for player movement, collision detection, and scoring, key controls \& graphic design.
+    \end{itemize}
+    \cvtag{MIPS Assembly}
+    \cvtag{Game Development}
+    \cvtag{Emulation}
+
 
     % \begin{wrapfigure}[1]{r}[-25pt]{1.5cm}
 
@@ -503,13 +502,12 @@
     %\medskip
     \divider{}
 
-    \vspace{-5pt}
     \cvevent{}{Skills, Frameworks \& Development Environments}{}{}
-    \cvtag{ONNX}
+    % \cvtag{ONNX}
     \cvtag{Pytorch}
+    \cvtag{\faGit{}}
     % \cvtag{torch.fx}
     \cvtag{Vim}
-    \cvtag{\faDocker{}Docker}
     % \cvtag{ROS}
     % \cvtag{TensorFlow}
     % \cvtag{React}
@@ -519,8 +517,9 @@
     % \cvtag{Express.js}
     % \cvtag{tailwindcss}
     \cvtag{\faLinux{}WSL}
-    \cvtag{\faGit{}}
-    \cvtag{VSCode} \\
+    \cvtag{\faDocker{}Docker}
+    % \cvtag{VSCode} \\
+    \cvtag{Research \& Dev} \\
     \cvtag{Model Compression}
     \cvtag{3D Reconstruction}
     \cvtag{Parallel Algorithms}
@@ -599,4 +598,5 @@
 
 
 \end{document}
+
 

@@ -116,7 +116,7 @@
         \linkedin{xiaorui-richard-huang}
         \github{Xiaorui-Huang}
         %% You MUST add the academicons option to \documentclass, then compile with LuaLaTeX or XeLaTeX, if you want to use \orcid or other academicons commands.
-        % \orcid{0000-0000-0000-0000}
+        % \orcid{0009-0003-6621-3789}
         %% You can add your own arbtrary detail with
         % \printinfo{symbol}{detail}[optional hyperlink prefix]
         % \printinfo{\faPaw}{Hey ho!}[https://example.com/]
@@ -142,8 +142,8 @@
               %               supported}} for \textbf{any profiled hardware}, harnessing Pytorch's
               %       \textbf{torch.fx} extensively.
         \item Developed a NAS framework, leveraging Qualcomm's patented NAS
-              techniques, to optimize \textbf{arbitrary models} for \textbf{any profiled hardware}, harnessing Pytorch's
-              \textbf{torch.fx} extensively.
+              techniques, to optimize \textbf{arbitrary models} on a pre-profiled hardware, built with Pytorch's
+              \textbf{torch.fx}
 
         \item Streamlined the NAS workflow for incoming client models, slashing
               \textbf{engineering time} by \textbf{80\%}.
@@ -206,28 +206,27 @@
     \vspace{-3pt}
     \cvsection{Education}
 
+    % \cvevent{University of Toronto \faUniversity}{Honors BSc.\ in Computer Science}{Sep 2019 --- Jun 2024 }% \textit{(includes one year fulltime co-op)}}{}
     \cvevent{University of Toronto \faUniversity}{Honors BSc.\ in Computer Science}{Sep 2019 --- Jun 2024}{}
     % \vspace{-5pt}
     \begin{itemize}
-        \item CSC413 \textbf{Deep Learning} (96\%) --- \textbf{GNN}, Transformers, CNN, RNN, GAN, VAE,  RL, Model Tuning techniques
-
-        \item CSC317 \textbf{Computer Graphics} (97\%) --- Ray Tracing, Mass
-              Spring Systems, BVH, Meshes, Kinematics, OpenGL Shaders in
-              \textbf{C++} using \textbf{Eigen} and \textbf{libigl}
-
         \item  CSC367 \textbf{Parallel Computing} (83\%) ---
-              CUDA Arch \& Reduction Algo, Parallel Arch \& Algo, threading \&
-              OpenMP, Distributed Computing w/ MPI, Cloud Computing
+              \textbf{CUDA} Arch \& Reduction Algo, Parallel Arch \& Algo, threading \&
+              \textbf{OpenMP}, Distributed Computing w/ \textbf{MPI}, Cloud Computing
+        \item CSC317 \textbf{Computer Graphics} (97\%) --- Ray Tracing, Mass
+              Spring Systems, BVH, Meshes, Kinematics, \textbf{OpenGL Shaders} in
+              \textbf{C++} using \textbf{Eigen} and \textbf{libigl}
+        \item ECE568 \textbf{Computer Security} (83\%) --- Buffer Overflow \& Control Hijacking, Cache Side-Channel Attacks, Network Security, Cryptography, Web Security \cvtag{C}\cvtag{x86}
+              % \item  \textbf{CSC258 Computer Organization - 95\%} Implemented
+              % and understood core computer component from basic circuits as well as
+              % writing assembly instructions.
+              % \item \textbf{CSC209 Software Tools \& Sys Programming- 93\%} Bash Scripting, C, software tools, pipes, file processing, system calls
+        \item CSC413 \textbf{Deep Learning} (96\%) --- Transformers, CNN, RNN, GAN, VAE, RL, GNN, Model Tuning techniques
 
               % \item CSC420 \textbf{Computer Vision (85\%)} --- Convolution, Feature
               %       Extraction (SIFT), Optical Flow, Feature Matching (RANSAC), Camera,
               %       Stereo, Homography, Object Detection
 
-        \item ECE568 \textbf{Computer Security} (83\%) --- Buffer Overflow \& Control Hijacking, Cache Side-Channel Attacks, Network Security, Cryptography, Web Security
-              % \item  \textbf{CSC258 Computer Organization - 95\%} Implemented
-              % and understood core computer component from basic circuits as well as
-              % writing assembly instructions.
-              % \item \textbf{CSC209 Software Tools \& Sys Programming- 93\%} Bash Scripting, C, software tools, pipes, file processing, system calls
     \end{itemize}
     % \cvtag{NLP}
     \cvtag{CSC369 OS}
@@ -254,7 +253,7 @@
         \item Researched and Developed \textbf{DISORF}, a \textbf{real-time Gaussian Splatting} \& \textbf{NeRF} framework for online 3D
               reconstruction and visualization of scenes captured by resource-constrained mobile robots and edge devices.
         \item Proposed a novel shifted exponential frame sampling method to address the degradation in rendering quality caused by naive image sampling during online training.
-        \item Paper is under review for RA-L and availble on \href{https://arxiv.org/abs/2403.00228}{arXiv}
+        \item Paper is under review for RA-L and availble on \href{https://arxiv.org/abs/2403.00228}{\textbf{arXiv}}
     \end{itemize}
 
     \cvtag{3D Gaussian Splatting} \cvtag{SLAM} \cvtag{NeRF} \cvtag{Pytorch} %\cvtag{CUDA}
@@ -353,8 +352,7 @@
     \cvtag{MIPS Assembly}
     \cvtag{Game Development}
     \cvtag{Emulation}
-
-
+    
     % \begin{wrapfigure}[1]{r}[-25pt]{1.5cm}
 
     % \vspace{-15pt}
@@ -477,7 +475,6 @@
     \cvevent{}{Programming Languages}{}{}
     \cvtag{\faPython{}Python}
     \cvtag{\textbf{C/C}++}
-    \cvtag{CUDA}
     \cvtag{C\#}
     \cvtag{\faJava{} Java}
     \cvtag{\faRust{} Rust}\\
@@ -503,6 +500,8 @@
     \divider{}
 
     \cvevent{}{Skills, Frameworks \& Development Environments}{}{}
+    \cvtag{\textbf{MLIR}}
+    \cvtag{\textbf{CUDA}}
     % \cvtag{ONNX}
     \cvtag{Pytorch}
     \cvtag{\faGit{}}
@@ -519,10 +518,10 @@
     \cvtag{\faLinux{}WSL}
     \cvtag{\faDocker{}Docker}
     % \cvtag{VSCode} \\
-    \cvtag{Research \& Dev} \\
-    \cvtag{Model Compression}
-    \cvtag{3D Reconstruction}
-    \cvtag{Parallel Algorithms}
+    % \cvtag{Research \& Dev} \\
+    % \cvtag{Model Compression}
+    % \cvtag{3D Reconstruction}
+    % \cvtag{Parallel Algorithms}
     % \cvtag{Visual Studio}
     % \cvtag{AWS}
     % \cvtag{Azure}
